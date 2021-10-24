@@ -63,7 +63,7 @@ for question in i2_questions:
 
 
 i3_data = []
-with open(os.path.join(data_folder, "COMP3074-CW1-Dataset.csv"), encoding="utf-8") as csv_file:
+with open(os.path.join(data_folder, "Question-Answer-Dataset.csv"), encoding="utf-8") as csv_file:
   reader = csv.reader(csv_file)
   for row in reader:
     i3_data.append((row[1], row[2]))
